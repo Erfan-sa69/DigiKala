@@ -1,0 +1,433 @@
+.shegeft-angiz{
+    width: 100%;
+    height: 300px;
+    background-color: #D42D4E;
+    border-radius: 8px;
+}
+.shegeft-angiz .parent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 16px;
+    padding-bottom: 16px;
+}
+.shegeft-angiz .parent .up-side{
+    width: 100%;
+    height: 56px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 16px 12px 0;
+}
+.shegeft-angiz .parent .up-side .logo{
+    width: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+.shegeft-angiz .parent .up-side .logo svg {
+    width: 16px;
+    height: 16px;
+}
+.shegeft-angiz .parent .up-side .bet{
+    width: 60vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-left: 10px;
+}
+.shegeft-angiz .parent .up-side .bet .left , .shegeft-angiz .parent .up-side .bet .rigth{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.shegeft-angiz .parent .up-side .bet .left>.timer{
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 2px; 
+    font-size: 14px;   
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shegeft-angiz .parent .up-side .bet .left>.timer:first-child{
+    margin-right: 0;
+}
+.shegeft-angiz .parent .up-side .bet .left>.timer:last-child{
+    margin-left: 0;
+}
+.shegeft-angiz .parent .up-side>span{
+    width: 22vw;
+    height: 24px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    color: white;
+    padding-right: 10px;
+}
+.shegeft-angiz .parent .up-side>span a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+.shegeft-angiz .parent .up-side>span a span{
+    color: white;
+    font-size: 12px;
+}
+.shegeft-angiz .parent .up-side>span a svg{
+    width: 24px;
+    height: 24px;
+    fill: white;
+}
+
+
+.shegeft-angiz .parent .down-side{
+    width: 100%;
+    height: 228px;
+    padding-right: 8px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.shegeft-angiz .parent .down-side .shegeft{
+    width: 100%;
+    padding-left: 8px;
+}
+.shegeft-angiz .parent .down-side .shegeft .swiper-slide{
+    padding: 8px;
+    height: 228px;
+    background-color: white;
+}
+.shegeft-angiz .parent .down-side .shegeft .swiper-slide a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.shegeft-angiz .parent .down-side .shegeft .swiper-slide a .card-up-side{
+    width: 100%;
+    height: 114px;
+}
+.shegeft-angiz .parent .down-side .shegeft .swiper-slide a .card-up-side img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.shegeft-angiz .parent .down-side .shegeft .swiper-slide a .card-down-side{
+    width: 100%;
+    height: 90px;
+    margin-top: 8px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: start;
+    gap: 8px;
+}
+.shegeft-angiz .parent .down-side .shegeft .swiper-slide a .card-down-side>p{
+    width: 100%;
+    height: 40px;
+    font-size: 9.6px;
+    font-weight: 700;
+    color: #424242;
+    text-align: right;
+}
+.shegeft-angiz .parent .down-side .shegeft .swiper-slide a .card-down-side>.info{
+    width: 70px;
+    height: 42px;
+}
+.shegeft-angiz .parent .down-side .shegeft .swiper-slide a .card-down-side>.info .ghimat{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+}
+.shegeft-angiz .parent .down-side .shegeft .swiper-slide a .card-down-side>.info .ghimat .gh-up-side{
+    width: 21.78vw;
+    height: 16px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.shegeft-angiz .parent .down-side .shegeft .swiper-slide a .card-down-side>.info .ghimat .gh-up-side>div{
+    width: 34px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 16px;
+    padding: 0 4px;
+
+}
+.shegeft-angiz .parent .down-side .shegeft .swiper-slide a .card-down-side>.info .ghimat .gh-up-side>div>span{
+    width: 15px;
+    height: 18px;
+    font-size: 9px;
+    font-weight: 800;
+    color: white;
+}
+.shegeft-angiz .parent .down-side .shegeft .swiper-slide a .card-down-side>.info .ghimat .gh-up-side>span{
+    width: 28px;
+    font-size: 8px;
+    text-decoration: line-through;
+    color: #c0c2c5;
+    margin-left: 4px;
+}
+.shegeft-angiz .parent .down-side .shegeft .swiper-slide a .card-down-side>.info .ghimat .gh-down-side{
+    width: 21.78vw;
+    height: 26px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.shegeft-angiz .parent .down-side .shegeft .swiper-slide a .card-down-side>.info .ghimat .gh-down-side>span{
+    width: 10vw;
+    font-size: 12.8px;
+    font-weight: 700;
+    text-align: center;
+    color: #23254e;
+    margin-left: 6px;
+}
+.vita .down .down-side .vitamin .swiper-slide a .card-down-side>.info .ghimat .gh-down-side>svg{
+    margin-right: 6px;
+}
+.shegeft-angiz .parent .down-side .shegeft .swiper-slide a:last-of-type{
+    gap: 5px;
+}
+.shegeft-angiz .parent .down-side .shegeft .swiper-slide a:last-of-type>span{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    border: 2px solid #dedfe0;
+    border-radius: 50%;
+    padding: 0 8px;
+}
+.shegeft-angiz .parent .down-side .shegeft .swiper-slide a:last-of-type>p{
+    font-size: 12px;
+    color: #1f1f1f;
+    font-weight: 500;
+    border-radius: 10px;
+
+}
+.shegeft-angiz .parent .down-side .shegeft .swiper-slide:last-of-type{
+    border-radius: 10px;
+}
+.shegeft-angiz .parent .down-side .shegeft .swiper-slide:first-of-type{
+    border-radius: 0 8px 8px 0;
+}
+
+@media (min-width:1024px) {
+    .shegeft-angiz {
+        width: 100%;
+        height: 320px;
+        background-color: white;
+        margin: 0 auto;
+        margin-top: 24px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0 16px;
+        max-width: 1336px;
+    }
+    .shegeft-angiz .parent{
+        width: 100%;
+        background-color: #D42D4E;
+        margin: 0 auto;
+        border-radius: 12px;
+        display: grid;
+        grid-template-columns: 166px minmax(826px , 1138px);
+    }
+    .shegeft-angiz .parent .up-side{
+        width: 166px;
+        height: 320px;
+        position: relative;
+        padding: 12px 20px 20px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        gap: 22px;
+    }
+    .shegeft-angiz .parent .up-side .logo{
+        width: 64px;
+        height: 64px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+    .shegeft-angiz .parent .up-side .logo svg{
+        width: 100%;
+        height: 100%;
+    }
+    .shegeft-angiz .parent .up-side .bet{
+        width: 100%;
+        height: 72px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .shegeft-angiz .parent .up-side .bet .right{
+        width: 100% !important;
+        height: 28px !important;
+    }
+    .shegeft-angiz .parent .up-side .bet .right svg{
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .shegeft-angiz .parent .up-side>span {
+        width: 103.87px;
+        height: 32px;
+        padding: 0;
+    }
+    .shegeft-angiz .parent .up-side>span>a{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border-radius: 8px;
+        padding: 4px 8px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        color: black;
+    }
+    .shegeft-angiz .parent .up-side>span>a span{
+        color: black;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .shegeft-angiz .parent .up-side>span>a svg{
+        fill: black;
+        width: 16px;
+        height: 16px;
+    }
+    .shegeft-angiz .parent .down-side{
+        height: 320px;
+        padding: 20px 0;
+    }
+    .shegeft-angiz .parent .down-side .shegeft{
+        height: 100%;
+    }
+    .shegeft-angiz .parent .down-side .shegeft .swiper-slide{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding: 0;
+        gap: 0;
+    }
+    .shegeft-angiz .parent .down-side .shegeft .swiper-slide>a{
+        width: 100%;
+        height: 100%;
+        gap: 0;
+    }
+    .shegeft-angiz .parent .down-side .shegeft .swiper-slide a:last-of-type{
+        grid-row: 1 /3;
+        gap: 0;
+    }
+    .shegeft-angiz .parent .down-side .shegeft .swiper-slide>a .card-up-side{
+        width: 164px;
+        height: 164px;
+    }
+    .shegeft-angiz .parent .down-side .shegeft .swiper-slide>a .card-up-side img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0 8px 0 0 ;
+    }
+    .shegeft-angiz .parent .down-side .shegeft .swiper-slide>a .card-down-side{
+        width: 164px;
+        height: 108px;
+        margin: 8px 0 0 ;
+        padding: 0px 8px 8px;
+        position: relative;
+    }
+    .shegeft-angiz .parent .down-side .shegeft .swiper-slide>a .card-down-side p{
+        width: 100%;
+        height: 50px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .shegeft-angiz .parent .down-side .shegeft .swiper-slide>a .card-down-side .info{
+        width: 78.25px;
+        height: 42px;
+        padding: 2px 0 0;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 10px;
+        bottom: 10px;
+    }
+    .shegeft-angiz .parent .down-side .shegeft .swiper-slide>a .card-down-side .info .ghimat{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .shegeft-angiz .parent .down-side .shegeft .swiper-slide>a .card-down-side .info .ghimat .gh-up-side{
+        width: 100%;
+        height: 16px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .shegeft-angiz .parent .down-side .shegeft .swiper-slide>a .card-down-side .info .ghimat .gh-up-side>div{
+        width: 34px;
+        height: 16px;
+    }
+    .shegeft-angiz .parent .down-side .shegeft .swiper-slide>a .card-down-side .info .ghimat .gh-up-side>div>span{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+    }
+    .shegeft-angiz .parent .down-side .shegeft .swiper-slide>a .card-down-side .info .ghimat .gh-up-side>span{
+        width: 36px;
+        font-size: 12px;
+    }
+    .shegeft-angiz .parent .down-side .shegeft .swiper-slide>a .card-down-side .info .ghimat .gh-down-side {
+        width: fit-content;
+        height: 24px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+    .shegeft-angiz .parent .down-side .shegeft .swiper-slide>a .card-down-side .info .ghimat .gh-down-side span{
+        width: fit-content;
+        height: 24px;
+        font-size: 19px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

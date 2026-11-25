@@ -1,0 +1,61 @@
+.first-desktop{
+    display: none;
+}
+.first{
+    width: 100%;
+    height: 64px;
+    position: fixed;
+    z-index: 9999;
+}
+.first .parent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e6123d;
+    padding: 16px;
+}
+.first .parent .back {
+    width: 24px;
+    height: 100%;
+    
+}
+.first .parent .back a{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first .parent .back a svg{
+    fill: white;
+}
+.first .parent .child1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first .parent .child2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first .parent .child2 svg{
+    fill: white;
+}
+@media (min-width:1024px) {
+    .first {
+        display: none;
+    }
+    .first-desktop{
+        display: block;
+        width: 100%;
+        height: 64px;
+        background:  url(https://www.digikala.com/statics/img/svg/amazing/header.svg), linear-gradient(to top, #ef4056, #ef394e);
+        background-repeat: no-repeat;
+        background-position: center;
+        position:relative;
+        top: 108px;
+    }
+}

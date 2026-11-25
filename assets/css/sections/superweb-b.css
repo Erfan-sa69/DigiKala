@@ -1,0 +1,130 @@
+.superweb-b {
+    width: 100vw;
+    height: 84px;
+    background-color: #f2f3f5;
+    padding: 4px 16px 0 16px;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 82px;
+    position: fixed;
+    z-index: 999;
+}
+.superweb-b .parent {
+    width:100%;
+    height: 100%;
+    position: relative;
+}
+.superweb-b .parent input{
+    position: absolute;
+    border: 1px solid rgba(128, 128, 128, 0.42);
+    opacity: 0;
+}
+.superweb-b .parent .up-side .child{
+    width: 100%;
+    height: 44px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.superweb-b .parent .up-side .child .search-bar{
+    width: 85%;
+    height: 100%;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.42);
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 0 12px;
+}
+.superweb-b .parent .up-side .child .search-bar>svg{
+    width: 24px;
+    height: 24px;
+    fill: #a0a0a0;
+}
+.superweb-b .parent .up-side .child .search-bar>svg:nth-of-type(2){
+fill: #0a63c9;
+margin-right: auto;
+}
+.superweb-b .parent .up-side .child .search-bar>span{
+    width: 264px;
+    height: 40px;
+    padding: 0 8px;
+}
+.superweb-b .parent .up-side .child .search-bar span .placeholder{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 5px;
+}
+.superweb-b .parent .up-side .child .search-bar span .placeholder span{
+    width: 59px;
+    height: 30px;
+    font-size: 13px;
+    font-weight: 700;
+    color: rgba(128, 128, 128, 0.731);
+}
+.superweb-b .parent .up-side .child .search-bar span .placeholder span>div{
+    width: fit-content;
+    height: fit-content;
+}
+.superweb-b .parent .up-side .child a{
+    width: 44px;
+    height: 44px;
+    margin-right: 9px;
+    background-color: white;
+    border-radius:50%;
+    border: 1px solid rgba(128, 128, 128, 0.297);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.superweb-b .parent .down-side{
+    width: 100%;
+    height: 32px;
+    margin-right: 4px;
+}
+.superweb-b .parent .down-side .valed{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 4px;
+    padding: 4px 0;
+    color: rgb(147, 76, 14);
+}
+.superweb-b .parent .down-side .valed .address{
+    width: 84.75px;
+    height: 24px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 5px;
+
+}
+.superweb-b .parent .down-side .valed .address svg{
+    width: 16px;
+    height: 16px;
+    fill: rgb(147, 76, 14);
+}
+.superweb-b .parent .down-side .valed .address p{
+    width: 64px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 11px;
+    font-weight: 500;
+}
+.superweb-b .parent .down-side .valed>svg{
+    width: 16px;
+    height: 16px;
+    fill: rgb(147, 76, 14);
+}
+
+@media (min-width:1024px) {
+    .superweb-b  {
+        display: none;
+    }
+}

@@ -1,0 +1,133 @@
+.widgets{
+    width: 100%;
+    height: 292px;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: white;
+}
+.widgets .up{
+    width: 100%;
+    height: 24px;
+    display: grid;
+    grid-template-columns: 0px 83.7292px 0px 204.271px;
+    grid-template-rows: 24px 0px 0px;
+    margin: 20px 0 12px;
+    padding: 0 16px;
+}
+.widgets .down{
+    width: 100%;
+    height: 236px;
+    display: flex;
+}
+.widgets .down .widget-item{
+    width: 100vw;
+    height: 100%;
+    margin-right: 14px;
+}
+.widgets .down .widget-item .swiper-slide{
+    width: 72px;
+    height: 100%; 
+    background-color: white;
+}
+.widgets .down .widget-item .swiper-slide .items{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    gap: 12px;
+}
+.widgets .down .widget-item .swiper-slide .items .items-up, .widgets .down .widget-item .swiper-slide .items .items-down{
+    width: 100%;
+    height: 112px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.widgets .down .widget-item .swiper-slide .items .items-up .image, .widgets .down .widget-item .swiper-slide .items .items-down .image{
+    width: 72px;
+    height: 72px;
+}
+.widgets .down .widget-item .swiper-slide .items .items-up .image img, .widgets .down .widget-item .swiper-slide .items .items-down .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.widgets .down .widget-item .swiper-slide .items .items-up span, .widgets .down .widget-item .swiper-slide .items .items-down span{
+    width: 72px;
+    height: 36px;
+    font-size: 11px;
+    font-weight: 400;
+    color: #0c0c0c;
+}
+@media (min-width:1024px) {
+    .widgets {
+        width: 100%;
+        height: 288px;
+        padding: 0 16px;
+        margin: 24px auto 0;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0 16px;
+        max-width: 1336px;
+    }
+    .widgets .parent{
+        width: 100%;
+        height: 100%;
+    }
+    .widgets .parent .up {
+        display: none;
+    }
+    .widgets .parent .down{
+        width: 100%;
+        height: 100%;
+    }
+    .widgets .parent .down .widget-item{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .widgets .parent .down .widget-item .swiper-slide{
+        height: 100%;
+    }
+    .widgets .parent .down .widget-item .swiper-slide .items{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    .widgets .parent .down .widget-item .swiper-slide .items .items-up{
+        width: 100px;
+        height: 140px;
+        justify-content: center;
+        align-items: center;
+    }
+    .widgets .parent .down .widget-item .swiper-slide .items .items-up .image{
+        width: 100px;
+        height: 100px;
+    }
+    .widgets .parent .down .widget-item .swiper-slide .items .items-up span{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .widgets .parent .down .widget-item .swiper-slide .items .items-down{
+        width: 100px;
+        height: 140px;
+        justify-content: center;
+        align-items: center;
+    }
+    .widgets .parent .down .widget-item .swiper-slide .items .items-down .image{
+        width: 100px;
+        height: 100px;
+    }
+    .widgets .parent .down .widget-item .swiper-slide .items .items-down span{
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+}

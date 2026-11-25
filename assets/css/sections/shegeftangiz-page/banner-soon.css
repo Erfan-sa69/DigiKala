@@ -1,0 +1,447 @@
+.banner-soon{
+    width: 100%;
+    height: 496px;
+    padding: 0 16px;
+}
+.banner-soon .parent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.banner-soon .parent .child1{
+    width: 100%;
+    height: 187px;
+    padding: 16px 20px 12px;
+    margin-top: 24px;
+    background: url(https://www.digikala.com/statics/img/svg/typography/freshPattern.svg), linear-gradient(267.6deg, rgba(2, 154, 73, .1) 0%, rgba(242, 242, 242, 0) 100%);;
+    background-color: #f0f0f1 !important;
+    border-radius: 16px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.banner-soon .parent .child1 .childchild1{
+    width: 100%;
+    height: 74px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+.banner-soon .parent .child1 .childchild1 .up{
+    width: 100%;
+    height: 38px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+}
+.banner-soon .parent .child1 .childchild1 .up .image{
+    width: 40px;
+    height: 38px;
+}
+.banner-soon .parent .child1 .childchild1 .up .image img{
+    width: 100%;
+    height: 100%;
+}
+.banner-soon .parent .child1 .childchild1 .up .logo{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-soon .parent .child1 .childchild1 .up .logo svg{
+    width: 190px;
+    height: 20px;
+    margin: 0 8px;
+}
+.banner-soon .parent .child1 .childchild1 .down{
+    width: fit-content;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px;
+    padding: 0 12px;
+    background-color: #029a49;
+    border-radius: 10rem;
+}
+.banner-soon .parent .child1 .childchild1 .down p{
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+}
+.banner-soon .parent .child1 .childchild2{
+    width: 100%;
+    height: 69px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+.banner-soon .parent .child1 .childchild2 .right{
+    width: 228px;
+    height: 69px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.banner-soon .parent .child1 .childchild2 .right a{
+    width: 68px;
+    height: 69px;
+    padding: 8px;
+    margin-left: 8px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+}
+.banner-soon .parent .child1 .childchild2 .right a .item{
+    width: 100%;
+    height: 100%;
+}
+.banner-soon .parent .child1 .childchild2 .right a .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+}
+.banner-soon .parent .child1 .childchild2 .right a span{
+    background-color: #d32f2f;
+    width: 34px;
+    height: 20px;
+    padding: 0 4px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 1px;
+    right: 0;
+}
+.banner-soon .parent .child1 .childchild2 .left{
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+}
+.banner-soon .parent .child1 .childchild2 .left svg{
+    width: 20px;
+    height: 20px;
+    fill: #00a049;
+}
+
+.banner-soon .parent .child2{
+    width: 100%;
+    height: 277px;
+    padding: 12px 28px 20px;
+    margin-top: 8px;
+    background: url(https://www.digikala.com/statics/img/svg/typography/earlyAccessPatternPlusMobile.svg) left top no-repeat, linear-gradient(274.36deg, #941b802a 1%, #f0f0f1 100%);
+    border-radius: 16px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: center;
+}
+.banner-soon .parent .child2 .childchild1{
+    width: fit-content;
+    height: 189.4px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.banner-soon .parent .child2 .childchild1 .up{
+    width: fit-content;
+    height: 45.4px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 0 12px;
+    margin-top: 6px;
+}
+.banner-soon .parent .child2 .childchild1 .up .logo{
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+}
+.banner-soon .parent .child2 .childchild1 .up .logo svg{
+    width: 20px;
+    height: 20px;
+    fill: #b12ba4;
+}
+.banner-soon .parent .child2 .childchild1 .up .info{
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b12ba4;
+}
+.banner-soon .parent .child2 .childchild1 .down{
+    width: fit-content;
+    height: fit-content;
+}
+.banner-soon .parent .child2 .childchild1 .down span{
+    width: fit-content;
+    height: fit-content;
+}
+.banner-soon .parent .child2 .childchild1 .down span svg{
+    width: 309px;
+    height: 144px;
+}
+.banner-soon .parent .child2 .childchild2{
+    width: 242px;
+    height: 40px;
+    margin-top: 16px;
+}
+.banner-soon .parent .child2 .childchild2 .timer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.banner-soon .parent .child2 .childchild2 .timer .sanieh{
+    width: 40px;
+    height: 39.5px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    background-color: white;
+    border-radius: 8px;
+}
+.banner-soon .parent .child2 .childchild2 .timer .sanieh span:first-child{
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b12ba4;
+}
+.banner-soon .parent .child2 .childchild2 .timer .sanieh span:last-child{
+    font-size: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b12ba4;
+}
+.banner-soon .parent .child2 .childchild2 .timer .daghighe{
+    width: 40px;
+    height: 39.5px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 0 12px;
+}
+.banner-soon .parent .child2 .childchild2 .timer .daghighe span:first-child{
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b12ba4;
+}
+.banner-soon .parent .child2 .childchild2 .timer .daghighe span:last-child{
+    font-size: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b12ba4;
+}
+.banner-soon .parent .child2 .childchild2 .timer .saaat{
+    width: 40px;
+    height: 39.5px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    background-color: white;
+    border-radius: 8px;
+}
+.banner-soon .parent .child2 .childchild2 .timer .saaat span:first-child{
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b12ba4;
+}
+.banner-soon .parent .child2 .childchild2 .timer .saaat span:last-child{
+    font-size: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b12ba4;
+}
+.banner-soon .parent .child2 .childchild2 .timer .info{
+    margin-right: 16px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #b12ba4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-soon .parent .child2 .childchild2 .timer .logo{
+    width: 16px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-soon .parent .child2 .childchild2 .timer .logo span{
+    width: 16px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4px;
+}
+.banner-soon .parent .child2 .childchild2 .timer .logo svg{
+    width: 16px;
+    height: 16px;
+    fill: #b12ba4;
+}
+.banner-soon .parent .child1 .childchild2 .left .tozih{
+    display: none;
+}
+@media (min-width:1024px) {
+    .banner-soon {
+        height: 252px;
+    }
+    .banner-soon .parent .child1 {
+        height: 110px;
+        background-repeat: no-repeat;
+        flex-flow: row nowrap;
+        padding: 16px 40px 12px;
+        justify-content: space-between;
+    }
+    .banner-soon .parent .child1 .childchild1{
+        width: fit-content;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: start;
+        align-items: center;
+    }
+    .banner-soon .parent .child1 .childchild1 .up{
+        width: 352px;
+        height: 62px;
+    }
+    .banner-soon .parent .child1 .childchild1 .up .image{
+        width: 66px;
+        height: 62px;
+    }
+    .banner-soon .parent .child1 .childchild1 .up .logo{
+        width: 250px;
+        height: 28px;
+        margin: 0 20px;
+    }
+    .banner-soon .parent .child1 .childchild1 .up .logo svg{
+        width: 250px;
+        height: 28px;
+        margin: 0;
+    }
+    .banner-soon .parent .child1 .childchild1 .down{
+        width: fit-content;
+        height: 28px;
+        padding: 0 12px;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-soon .parent .child1 .childchild1 .down p{
+        
+        height: fit-content;
+        font-size: 13px;
+        font-weight: 700;
+    }
+    .banner-soon .parent .child1 .childchild2{
+        width: 431px;
+        height: 74px;
+        margin: 0 16px 0 0 ;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: end;
+        align-items: center;
+    }
+    .banner-soon .parent .child1 .childchild2 .right{
+        width: fit-content;
+        height: 100%;
+    }
+    .banner-soon .parent .child1 .childchild2 .right a{
+        width: 74px;
+        height: 74px;
+        padding: 8px;
+        margin-left: 8px;
+    }
+    .banner-soon .parent .child1 .childchild2 .left{
+        width: fit-content;
+        height: 50.03px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 20px;
+        border-radius: 40px;
+    }
+    .banner-soon .parent .child1 .childchild2 .left .tozih{
+        width: fit-content;
+        height: 26.03px;
+        font-size: 12px;
+        font-weight: 700;
+        color: #029a49;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-soon .parent .child1 .childchild2 .left svg{
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+    }
+    .banner-soon .parent .child2 {
+        height: 110px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .banner-soon .parent .child2 .childchild1{
+        width: 461px;
+        height: 83px;
+    }
+    .banner-soon .parent .child2 .childchild1 .up {
+        display: none;
+    }
+    .banner-soon .parent .child2 .childchild1 .down{
+        width: 100%;
+        height: 100%;
+    }
+    .banner-soon .parent .child2 .childchild1 .down span{
+        width: 100%;
+        height: 100%;
+    }
+    .banner-soon .parent .child2 .childchild1 .down span svg{
+        width: 461px;
+        height: 150px;
+        position: relative;
+        top: -25px;
+    }
+}

@@ -1,0 +1,337 @@
+header .branding {
+  display: none;
+}
+header nav.desktop {
+  display: none;
+}
+nav.mobile {
+  width: 100%;
+  height: 54.36px;
+  position: fixed;
+  bottom: 0;
+  z-index: 100000;
+  background-color: white;
+  border-top: 1px solid rgba(128, 128, 128, 0.295);
+}
+.mobile .parent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.mobile .parent .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 100%;
+  height: 100%;
+  padding: 4px 0 4px 0;
+}
+.mobile .parent .menu p {
+  font-size: 10px;
+  font-weight: 600;
+  color: black;
+}
+.mobile .parent .menu div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+}
+
+@media (min-width: 1024px) {
+  nav.mobile {
+    display: none;
+  }
+  header .branding {
+    display: block;
+    position: fixed;
+  }
+  
+  header nav.desktop {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 0 16px;
+    margin-top: 68px;
+    background-color: white;
+  }
+  header {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    height: 108px;
+    box-shadow:
+      0 1px 0 #00000024,
+      0 2px 0 #0000000d;
+    position: fixed;
+    z-index: 9999;
+    background-color: white;
+  }
+  .branding {
+    width: 100%;
+    height: 68px;
+    padding: 12px 16px;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .branding .child1 {
+    width: 75%;
+    height: 100%;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    vertical-align: middle;
+  }
+  .branding .child1 a.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 195px;
+    height: 30px;
+    margin-left: 20px;
+  }
+  .branding .child1 .header-logo .ch {
+    width: 100vw;
+    height: 100%;
+  }
+  .branding .child1 .left-side-h {
+    width: 78%;
+    height: 100%;
+    display: flex;
+  }
+  .branding .child1 .left-side-h .parent {
+    width: 100vw;
+    height: 100%;
+  }
+  .branding .child1 .left-side-h .parent .child {
+    width: 500px;
+    height: 100%;
+    padding: 0 16px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 8px;
+    background-color: #f0f0f1;
+    border-radius: 50px;
+  }
+  .branding .child1 .left-side-h .parent .child img {
+    width: 24px;
+    height: 24px;
+    filter: contrast(0.01);
+  }
+  .branding .child1 .left-side-h .parent .child span {
+    width: 428px;
+    height: 40px;
+  }
+  .branding .child1 .left-side-h .parent .child span label {
+    width: 100%;
+    height: 100%;
+  }
+  .branding .child1 .left-side-h .parent .child span label div {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .branding .child1 .left-side-h .parent .child span label div input {
+    width: 100%;
+    height: 100%;
+    padding: 0 8px;
+    font-family: myfont;
+    border: unset;
+    background-color: inherit;
+    font-size: 12px;
+    opacity: 0.8;
+    outline: none;
+  }
+  .branding .child2 {
+    display: inline-flex;
+    vertical-align: middle;
+    width: 24%;
+    height: 100%;
+    justify-content: end;
+    align-items: center;
+  }
+  .branding .child2 a:nth-of-type(1) {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    margin-left: 12px;
+  }
+  .branding .child2 a:nth-of-type(2) {
+    width: 130px;
+    height: 40px;
+  }
+  .branding .child2 a:nth-of-type(2) button {
+    padding: 8px 15px;
+    border-radius: 9px;
+    background-color: white;
+    outline: unset;
+    border: 1px solid rgba(128, 128, 128, 0.24);
+  }
+  .branding .child2 a:nth-of-type(2) button div {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    font-family: myfont;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .branding .child2 a:nth-of-type(2) button div svg {
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+  }
+  .branding .child2 a:nth-of-type(3) {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    margin-left: -8px;
+  }
+  .branding .child2 span {
+    width: 1px;
+    height: 23px;
+    border-left: 1px solid rgba(128, 128, 128, 0.648);
+    margin: 0 12px;
+  }
+
+  header nav.desktop .parent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header nav.desktop .parent .right{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+    gap: 0;
+  }
+  header nav.desktop .parent .right .megamenu{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+  }
+  header nav.desktop .parent .right .megamenu svg{
+    margin-left: 4px;
+  }
+  header nav.desktop .parent .right .megamenu span{
+    font-size: 14px;
+    font-weight: 700;
+    color: #3f4064;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    border-left: 1px solid rgba(128, 128, 128, 0.205);
+  }
+  header nav.desktop .parent .right .pages{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+    gap: 0;
+  }
+  header nav.desktop .parent .right .pages .items{
+    width: fit-content;
+    height: 100%;
+    padding: 0 12px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+  header nav.desktop .parent .right .pages .items:last-of-type {
+    padding-right: 12px;
+  }
+  header nav.desktop .parent .right .pages .items:last-of-type a{
+    padding-left: 12px;
+    border-left: 1px solid rgba(128, 128, 128, 0.205);
+  }
+  header nav.desktop .parent .right .pages .items a{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    color: #62666d;
+  }
+  header nav.desktop .parent .right .pages .items a svg{
+    fill: #62666d;
+    margin-left: 4px;
+  }
+  header nav.desktop .parent .right .pages .items a span {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -3px;
+  }
+  header nav.desktop .parent .right .digi{
+    width: fit-content;
+    height: 100%;
+  }
+  header nav.desktop .parent .right .digi .sale{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 12px;
+  }
+  header nav.desktop .parent .right .digi .sale a{
+    width: fit-content;
+    height: fit-content;
+    font-size: 12px;
+    font-weight: 400;
+    color: #62666d;
+  }
+  header nav.desktop .parent .left{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4px;
+  }
+  header nav.desktop .parent .left .child{
+    width: fit-content;
+    height: 34.03px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 12px;
+    background-color: rgba(245, 127, 23, .07);
+    border-radius: 20px;
+  }
+  header nav.desktop .parent .left .child p{
+    font-size: 12px;
+    font-weight: 700;
+    color: #f57f17;
+  }
+  header nav.desktop .parent .left .child svg {
+    fill: #f57f17;
+  }
+}

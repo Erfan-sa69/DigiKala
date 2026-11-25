@@ -1,0 +1,84 @@
+main section.superweb {
+    width: 100%;
+    height: 82px;
+    background-color: #f2f3f5;
+    position:fixed;
+    top: 0;
+    z-index: 999;
+}
+.superweb .parent{
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 16px;
+    align-items: center;
+}   
+.superweb .parent .rigth-side-s{
+    display: inline-flex;
+    width: 11vw;
+    height: 66px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.304);
+}
+.superweb .parent .rigth-side-s a{
+    width: 100%;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.superweb .parent .left-side-s{
+    width: 79vw;
+    height: 66px;
+    display: inline-flex;
+    align-items: center;
+}
+.superweb .parent .left-side-s .superweb-menu{
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+}
+.superweb .parent .left-side-s .swiper-slide{
+    width: 68px;
+    height: 66px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.304);
+    color: #000;
+}
+.superweb .parent .left-side-s .swiper-slide:nth-of-type(1){
+    background-color: #E40138;
+}
+.superweb .parent .left-side-s .swiper-slide:nth-of-type(1) span{
+    color: white;
+}
+.superweb .parent .left-side-s .swiper-slide a{
+    width: 100%;
+    height: 66px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.superweb .parent .left-side-s .swiper-slide a .logo {
+    width: 68px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.superweb .parent .left-side-s .swiper-slide a .logo img{
+    width: 32px;
+    height: 32px;
+}
+.superweb .parent .left-side-s .swiper-slide a span{
+    font-size: 11px;
+    font-weight: 600;
+    color: #000;
+}
+@media (min-width:1024px) {
+    main section.superweb {
+        display: none;
+    }
+}

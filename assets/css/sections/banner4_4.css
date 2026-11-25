@@ -1,0 +1,91 @@
+.banner4_4{
+    width: 100%;
+    height: 240px;
+    margin-bottom: 20px;
+}
+.banner4_4 .parent{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 8px;
+    padding: 0 16px 0 16px;
+    margin-top: 20px;
+}
+.banner4_4 .parent .up-side, .banner4_4 .parent .down-side{
+    width: 100%;
+    height: 116px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+.banner4_4 .parent .up-side a, .banner4_4 .parent .down-side a{
+    width: 100%;
+    height: 116px;
+}
+.banner4_4 .parent .up-side a div, .banner4_4 .parent .down-side a div{
+    width: 100%;
+    height: 100%;
+}
+.banner4_4 .parent .up-side a div img, .banner4_4 .parent .down-side a div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+@media (min-width:1024px) {
+    .banner4_4 {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0 16px;
+        max-width: 1336px;
+        margin: 24px auto 0;
+    }
+    .banner4_4  .parent{
+        width: 100%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: minmax(fit-content, 240px);
+        padding: 0;
+        gap: 16px;
+        margin: 0;
+    }
+    .banner4_4  .parent .up-side{
+        width: 100%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+    .banner4_4  .parent .up-side a {
+        width: 100%;
+        height: fit-content;
+    }
+    .banner4_4  .parent .up-side a>div{
+        width: 100%;
+        height: fit-content;
+    }
+    .banner4_4  .parent .up-side a>div img{
+        min-width: 180px;
+        max-width: 100%;
+        min-height: 180px;
+        max-height: 100%;
+    }
+    .banner4_4  .parent .down-side{
+        width: 100%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+
+    }
+    .banner4_4  .parent .down-side a{
+        width: 100%;
+        height: fit-content;
+    }
+}

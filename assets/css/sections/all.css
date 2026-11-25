@@ -1,0 +1,7 @@
+.all{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    background-color: white;
+    overflow-x:hidden ;
+}

@@ -1,0 +1,39 @@
+.eight{
+    width: 100%;
+    height: 122px;
+}
+.eight .parent{
+    width: 100vw;
+    height: 100%;
+    margin-top: 20px;
+    padding: 0 16px;
+}
+.eight .parent a{
+    display: inline-block;
+    width: 100%;
+    height: 122.4px;
+}
+.eight .parent a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+@media (min-width:1024px){
+    .eight{
+        margin: 24px auto 0;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0 16px;
+        max-width: 1336px;
+    }
+    .eight .parent {
+        margin: 0;
+        padding: 0;
+    }
+    .eight .parent a img {
+        border-radius: 16px;
+    }
+}

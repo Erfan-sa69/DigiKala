@@ -1,0 +1,679 @@
+footer{
+    width: 100%;
+    height: 472px;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 16px 20px;
+    position: relative;
+    background-color: white;
+}
+footer .first{
+    width: 100%;
+    height: 28px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+footer .first a{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background-color: #f0f0f1;
+    padding: 6px 14px;
+    border-radius: 20px;
+    color: #3f4064 ;
+}
+footer .first a p{
+    font-size: 11px;
+    font-weight: 700;
+}
+
+
+footer .second{
+    width: 100%;
+    height: 120px;
+}
+footer .second .call{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.205);
+}
+footer .second .call .right{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+footer .second .call .right .r-right{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f1;
+}
+footer .second .call .right .r-right img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+}
+footer .second .call .right .r-left{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: start;
+    gap: 4px;
+}
+footer .second .call .right .r-left span{
+    font-size: 11px;
+    font-weight: 700;
+}
+footer .second .call .right .r-left span:nth-of-type(2){
+    color: #81858b;
+    font-weight: 500;
+}
+footer .second .call a{
+    width: fit-content;
+    height: 100%;
+    background-color: #f0f0f1;
+    padding: 6px 16px;
+    border-radius: 20px;
+}
+footer .second .call a div{
+    font-size: 10px;
+    color: #424750;
+    font-weight: 600;
+}
+footer .third{
+    width: 100%;
+    height: 194px;
+}
+footer .third .parent{
+    width: 100%;
+    height: 48px;
+    padding: 12px 0;
+    border-bottom: 1px solid #e0e0e2;
+}
+footer .third .parent .child{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    align-content: center;
+}
+footer .third .parent .child .right{
+    grid-column: 1 / 12;
+}
+footer .third .parent .child .right p span{
+    width: fit-content;
+    height: fit-content;
+    font-size: 13px;
+    font-weight: 700;
+}
+footer .third .parent .child .left{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+footer .fourth{
+    width: 100%;
+    height: 94px;
+    margin-top: 12px;
+}
+footer .fourth .up{
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+footer .fourth .up::before{
+    content: "";
+    background: linear-gradient(#fff0 50%, #fff 100%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+footer .fourth .up h1 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #424750;
+    margin-bottom: 8px;
+}
+footer .fourth .up p{
+    font-size: 8px;
+    font-weight: 400;
+    color: #81858b;
+    line-height: 2.17;
+}
+footer .fourth .down{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+    gap: 4px;
+    font-size: 11.2px;
+    font-weight: 700;
+    line-height: 2.15;
+    color: #a1a3a8;
+}
+footer .desktop {
+    display: none;
+}
+footer .desk-foot {
+    display: none;
+}
+@media (min-width:1024px) {
+    .all .more{
+        display: none;
+    }
+    .allll .more{
+        display: none;
+    }
+    footer .mobile{
+        display: none;
+    }
+    footer {
+        width: 100%;
+        height: fit-content;
+        margin-top: 48px;
+        padding: 32px 0 0 0;
+        border-top: 1px solid rgba(128, 128, 128, 0.212);
+    }
+    footer .desk-foot{
+        display: block;
+        width: 100%;
+        height: fit-content;
+    }
+    footer .desk-foot .parent{
+        width: 100%;
+        height: fit-content;
+        padding: 0 20px;
+        display: flex;
+        flex-flow: column nowrap;
+
+    }
+    footer .desk-foot .parent .child1{
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    footer .desk-foot .parent .child1 .logo{
+        width: 195px;
+        height: 40px;
+        margin-left: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .desk-foot .parent .child1 .logo svg{
+        width: 195px;
+        height: 30px;
+    }
+    footer .desk-foot .parent .child1 a{
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 16px;
+        border: 1px solid rgba(128, 128, 128, 0.194);
+        border-radius: 8px;
+    }
+    footer .desk-foot .parent .child1 a .go-up{
+        width: fit-content;
+        height: fit-content;
+        font-size: 12px;
+        font-weight: 700;
+        margin-left: 8px;
+        color: #a2a2a2;
+    }
+    footer .desk-foot .parent .child1 a svg{
+        width: 24px;
+        height: 24px;
+        fill: #a2a2a2;
+    }
+    footer .desk-foot .parent .child2{
+        width: 100%;
+        height: 26.03px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: start;
+        align-items: center;
+        margin-top: 12px;
+    }
+    footer .desk-foot .parent .child2 p{
+        width: fit-content;
+        height: fit-content;
+        font-size: 12px;
+        font-weight: 400;
+        color: #3f4064;
+    }
+    footer .desk-foot .parent .child2 span{
+        width: fit-content;
+        height: fit-content;
+        padding: 0 20px;
+        color: #a1a3a8;
+    }
+    footer .desk-foot .parent .child3 {
+        width: 100% ;
+        height: fit-content;
+        margin: 32px 0;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr;
+        justify-items: center;
+        align-content: center;
+    }
+    footer .desk-foot .parent .child3 a{
+        width: fit-content;
+        height: 103.87px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center; 
+        padding: 12px 0;  
+    }
+    footer .desk-foot .parent .child3 a .image{
+        width: fit-content;
+        height: 56px;
+    }
+    footer .desk-foot .parent .child3 a .image svg{
+        width: 56px;
+        height: 56px;
+    }
+    footer .desk-foot .parent .child3 a p{
+        font-size: 11px;
+        font-weight: 400;
+        color: #3f4064;
+    }
+    footer .desk-foot .parent .child4 {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 32px;
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr) 328px;
+        grid-template-rows: 1fr;
+    }
+    footer .desk-foot .parent .child4 .with-digi{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: start;
+        align-items: start;
+    }
+    footer .desk-foot .parent .child4 .with-digi p{
+        width: 100%;
+        height: 33.59px;
+        margin-bottom: 8px;
+        font-size: 16px;
+        font-weight: 700;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        color: #3f4064;
+    }
+    footer .desk-foot .parent .child4 .with-digi a{
+        display: block;
+        width: 100%;
+        height: 30.09px;
+        margin-bottom: 8px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #81858b;
+    }
+    footer .desk-foot .parent .child4 .with-us{
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    footer .desk-foot .parent .child4 .with-us .withus-up{
+        width: 100%;
+        height: 85.59px;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    footer .desk-foot .parent .child4 .with-us .withus-up h4{
+        width: 100%;
+        height: 33.59px;
+        margin-bottom: 12px;
+        font-size: 16px;
+        font-weight: 700;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        color: #3f4064;
+    }
+    footer .desk-foot .parent .child4 .with-us .withus-up .socials{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: start;
+        align-items: center;
+    }
+    footer .desk-foot .parent .child4 .with-us .withus-up .socials a{
+        width: 40px;
+        height: 40px;
+        margin-left: 32px;
+    }
+    footer .desk-foot .parent .child4 .with-us .withus-up .socials a svg{
+        width: 100%;
+        height: 100%;
+        fill: #a2a2a2;
+    }
+    footer .desk-foot .parent .child4 .with-us .withus-up .socials a:last-child{
+        margin: 0;
+    }
+    footer .desk-foot .parent .child4 .with-us .withus-down{
+        width: 100%;
+        height: 93.59px;
+        display: flex;
+        flex-flow: column nowrap;
+        margin-top: 32px;
+    }
+    footer .desk-foot .parent .child4 .with-us .withus-down h4{
+        width: 100%;
+        height: 33.59px;
+        margin-bottom: 12px;
+        font-size: 16px;
+        font-weight: 700;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        color: #3f4064;
+    }
+    footer .desk-foot .parent .child4 .with-us .withus-down .email{
+        width: 100%;
+        height: 48px;
+    }
+    footer .desk-foot .parent .child4 .with-us .withus-down .email form{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    footer .desk-foot .parent .child4 .with-us .withus-down .email form label{
+        width: 266.9px;
+        height: 100%;
+        position: relative;
+        background-color: #f0f0f1;
+        border-radius: 8px;
+        padding: 0 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .desk-foot .parent .child4 .with-us .withus-down .email form label .email-input{
+        width: 100%;
+        height: 32.25px;
+
+    }
+    footer .desk-foot .parent .child4 .with-us .withus-down .email form label .email-input input{
+        width: 100%;
+        height: 100%;
+        padding: 0 8px;
+        font-size: 15px;
+        font-weight: 400;
+        outline: unset;
+        border: unset;
+        background-color: #f0f0f1;
+        font-family: myfont;
+        color: #3f4064;
+    }
+    footer .desk-foot .parent .child4 .with-us .withus-down .email form button{
+        width: 53.1px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 16px;
+        background-color: #e0e0e2;
+        border: unset;
+        border-radius: 8px;
+        margin-right: 8px;
+    }
+    footer .desk-foot .parent .child4 .with-us .withus-down .email form button span{
+        font-size: 14px;
+        font-weight: 700;
+        font-family: myfont;
+        color: #fff;
+    }
+    footer .desk-foot .parent .child5 {
+        width: 100%;
+        height: 76px;
+        padding: 8px 20px;
+        margin-bottom: 28px;
+        background-color: #3c4b6d;
+        color: #fff;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 8px;
+    }
+    footer .desk-foot .parent .child5 .child5-right{
+        width: fit-content;
+        height: 44.09px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .desk-foot .parent .child5 .child5-right .child5-right-image{
+        width: 44px;
+        height: 44px;
+    }
+    footer .desk-foot .parent .child5 .child5-right .child5-right-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    footer .desk-foot .parent .child5 .child5-right span{
+        font-size: 21px;
+        font-weight: 500;
+        margin-right: 16px;
+    }
+    footer .desk-foot .parent .child5 .child5-left{
+        width: fit-content;
+        height: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: end;
+        align-items: center;
+    }
+    footer .desk-foot .parent .child5 .child5-left .download{
+        width: fit-content;
+        height: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: end;
+        align-items: center;
+    }
+    footer .desk-foot .parent .child5 .child5-left .download a{
+        width: 142px;
+        height: 44px;
+        margin: 8px;
+        border-radius: 16px;
+    }
+    footer .desk-foot .parent .child5 .child5-left .download a .download-card{
+        width: 100%;
+        height: 100%;
+        border-radius: 16px;
+
+    }
+    footer .desk-foot .parent .child5 .child5-left .download a .download-card svg{
+        width: 100%;
+        height: 100%;
+    }
+    footer .desk-foot .parent .child5 .child5-left .continue{
+        width: 44px;
+        height: 44px;
+        margin-right: 16px;
+    }
+    footer .desk-foot .parent .child5 .child5-left .continue a{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 4px;
+    }
+    footer .desk-foot .parent .child6{
+        width: 100%;
+        height: 223.7px;
+        display: grid;
+        grid-template-columns: auto 465.33px;
+        grid-template-rows: 1fr;
+        align-items: center;
+        padding: 32px 0;
+        border-top: 1px solid rgba(128, 128, 128, 0.205);
+        border-bottom: 1px solid rgba(128, 128, 128, 0.205);
+    }
+    footer .desk-foot .parent .child6 .child6-right{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: start;
+    }
+    footer .desk-foot .parent .child6 .child6-right .information{
+        width: 100%;
+        height: 125px;
+        padding-left:40px;
+        
+    }
+    footer .desk-foot .parent .child6 .child6-right .information .digikala{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: start;
+        position: relative;
+    }
+    footer .desk-foot .parent .child6 .child6-right .information .digikala::before {
+        content: "";
+        background: linear-gradient(#fff0 50%,#fff 100%);
+        width: 100%;
+        height: 125px;
+        position: absolute;
+    }
+    footer .desk-foot .parent .child6 .child6-right .information .digikala h1{
+        font-size: 21px;
+        font-weight: 500;
+        color: #62666d;
+    }
+    footer .desk-foot .parent .child6 .child6-right .digikala p{
+        font-size: 12px;
+        font-weight: 400;
+        color: #81858b;
+    }
+    footer .desk-foot .parent .child6 .child6-right .see-more{
+        width: 91.07px;
+        height: 26.03px;
+        margin-top: 8px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .desk-foot .parent .child6 .child6-right .see-more .text{
+        font-size: 12px;
+        font-weight: 700;
+        color: #1672dd;
+    }
+    footer .desk-foot .parent .child6 .child6-right .see-more svg{
+        width: 18px;
+        height: 18px;
+        fill: #1672dd;
+    }
+    footer .desk-foot .parent .child6 .child6-left{
+        width: fit-content;
+        height: 108.33px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: end;
+        align-items: center;
+    }
+    footer .desk-foot .parent .child6 .child6-left a{
+        width: fit-content;
+        height: 100%;
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        padding: 16px;
+        margin-right: 8px;
+        border: 1px solid #e0e0e2;
+        border-radius: 8px;
+    }
+    footer .desk-foot .parent .child6 .child6-left a .mojavvez{
+        width: 75px;
+        height: 75px;
+    }
+    footer .desk-foot .parent .child6 .child6-left a .mojavvez img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    footer .desk-foot .parent .child7{
+        width: 100%;
+        height: fit-content;
+        padding: 32px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .desk-foot .parent .child7 p{
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 11px;
+        font-weight: 400;
+        color: #81858b;
+    }
+    footer .desk-foot .refrals{
+        width: 100%;
+        height: 160px;
+        display: grid;
+        grid-template-columns: repeat(9 , auto);
+        grid-template-rows: repeat(2 , 80px);
+        justify-items: center;
+        align-items: center;
+        background-color: #f0f0f1;
+    }
+    footer .desk-foot .refrals a{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
+        border: 1px solid rgba(128, 128, 128, 0.105);
+        border-top: 0;
+    }
+    footer .desk-foot .refrals a .ref-images{
+        width: 100%;
+        height: 20px;
+    }
+    footer .desk-foot .refrals a .ref-images svg{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+

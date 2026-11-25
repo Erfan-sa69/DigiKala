@@ -1,0 +1,119 @@
+.brand{
+    width: 100%;
+    height: 190px;
+    background-color: white;
+}
+.brand .up{
+    width: 100%;
+    height: 56PX;
+    padding: 20PX 16PX 12PX;
+}
+.brand .up svg{
+    vertical-align: top;
+    margin-left: 8px;
+}
+.brand .up span{
+    vertical-align: top;
+    line-height: 22px;
+    font-weight: 600;
+}
+.brand .down{
+    width: 100%;
+    height: 124px;
+}
+.brand .down .brands{
+    width: 100%;
+    height: 100%;
+    padding-right: 16px;
+
+}
+.brand .down .brands .swiper-slide{
+    height: 124px;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.361);
+    margin-left: 12px !important;
+    border-radius: 8px;
+}
+.brand .down .brands .swiper-slide a{
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 6px;
+}
+.brand .down .brands .swiper-slide a .card-up-side{
+    width: 100%;
+    height: 90px;
+    background-color: #f0f0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brand .down .brands .swiper-slide a .card-up-side img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+    border-radius: 8px 8px 0 0;
+    padding: 6px;
+}
+.brand .down .brands .swiper-slide a .card-down-side{
+    width: 100%;
+    height: 20px;
+    padding: 0 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brand .down .brands .swiper-slide a .card-down-side h4{
+    font-size: 12px;
+    font-weight: 500;
+    color: #424750;
+}
+
+@media (min-width:1024px) {
+    .brand {
+        width: 100%;
+        height: 221.33px;
+        margin: 24px auto 0;
+        padding: 0 16px;
+        max-width: 1336px;
+    }
+    .brand .parent{
+        width: 100%;
+        height: 100%;
+        border: 1px solid rgba(128, 128, 128, 0.251);
+        border-radius: 16px;
+        padding-bottom: 24px;
+    }
+    .brand .parent .up{
+        width: 100%;
+        height: 56px;
+        padding: 16px 24px 0;
+    }
+    .brand .parent .up span{
+        width: 153.92px;
+        height: fit-content;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .brand .parent .down{
+        padding-top: 16px;
+
+    }
+    .brand .parent .down .brands{
+        height: 124px;
+        padding-right: 24px;
+    }
+    .brand .parent .down .swiper-wrapper{
+        height: 124px;
+    }
+    .brand .parent .down .swiper-slide a .card-up-side{
+        border-radius: 8px 8px 0 0 ;
+    }
+    .brand .parent .down .swiper-slide a .card-up-side img{
+        border-radius: 8px 8px 0 0 ;
+    }
+    
+    
+}

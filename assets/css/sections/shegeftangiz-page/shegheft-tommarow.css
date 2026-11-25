@@ -1,0 +1,225 @@
+.shegheft-tommarow{
+    width: 100%;
+    height: 154.7px;
+    padding: 0 16px;
+    margin-top: 24px;
+}
+.shegheft-tommarow .parent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    background-image: linear-gradient(267.6deg, #e6123d1a 0%, #f2f2f200 100%);
+    background: linear-gradient(270deg, rgba(239, 57, 78,.1) 0%, rgba(242, 242, 242, 0) 100%);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-color: #f5f5f5 !important;
+
+}
+.shegheft-tommarow .parent .child1{
+    width: 100%;
+    height: 154.7px;
+    padding: 16px 20px 12px;
+    border-radius: 16px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.shegheft-tommarow .parent .child1 .childchild1{
+    width: 100%;
+    height: 74px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+.shegheft-tommarow .parent .child1 .childchild1 .up{
+    width: 100%;
+    height: 41.7px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.shegheft-tommarow .parent .child1 .childchild1 .up .logo{
+    width: 162px;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: start;
+}
+.shegheft-tommarow .parent .child1 .childchild1 .up .logo svg{
+    width: 146px;
+    height: 20px;
+    margin: 0 8px;
+}
+.shegheft-tommarow .parent .child1 .childchild1 .up .logo span{
+    font-size: 10px;
+    font-weight: 700;
+    color: #0c0c0c;
+    padding-right: 8px;
+}
+.shegheft-tommarow .parent .child1 .childchild1 .up .lefttimer{
+    width: 106.56px;
+    height: 41.7px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: start;
+}
+.shegheft-tommarow .parent .child1 .childchild1 .up .lefttimer .timer{
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 6px;
+}
+.shegheft-tommarow .parent .child1 .childchild1 .up .lefttimer .timer span{
+    font-size: 13px;
+    font-weight: 700;
+    color: #23254e;
+}
+.shegheft-tommarow .parent .child1 .childchild2{
+    width: 100%;
+    height: 69px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+.shegheft-tommarow .parent .child1 .childchild2 .right{
+    width: 228px;
+    height: 69px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.shegheft-tommarow .parent .child1 .childchild2 .right a{
+    width: 68px;
+    height: 69px;
+    padding: 8px;
+    margin-left: 8px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+}
+.shegheft-tommarow .parent .child1 .childchild2 .right a .item{
+    width: 100%;
+    height: 100%;
+}
+.shegheft-tommarow .parent .child1 .childchild2 .right a .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+}
+.shegheft-tommarow .parent .child1 .childchild2 .right a span{
+    background-color: #d32f2f;
+    width: 34px;
+    height: 20px;
+    padding: 0 4px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 1px;
+    right: 0;
+}
+.shegheft-tommarow .parent .child1 .childchild2 .left{
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+}
+.shegheft-tommarow .parent .child1 .childchild2 .left svg{
+    width: 20px;
+    height: 20px;
+    fill: #ed1944;
+}
+.shegheft-tommarow .parent .child1 .childchild2 .left .tozih{
+    display: none;
+}
+@media (min-width:1024px) {
+    .shegheft-tommarow {
+        height: 110px;
+    }
+    .shegheft-tommarow .parent {
+        height: 100%;
+        padding: 16px 40px 12px;
+    }
+    .shegheft-tommarow .parent .child1{
+        height: 100%;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+    .shegheft-tommarow .parent .child1 .childchild1{
+        width: fit-content;
+        height: 51.86px;
+    }
+    .shegheft-tommarow .parent .child1 .childchild1 .up .logo{
+        width: fit-content;
+        height: 100%;
+    }
+    .shegheft-tommarow .parent .child1 .childchild1 .up .logo svg{
+        width: 206px;
+        height: 28px;
+        display: flex;
+        justify-content: start;
+    }
+    .shegheft-tommarow .parent .child1 .childchild1 .up .logo span{
+        width: fit-content;
+        height: 23.86px;
+        margin: 0 20px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        font-size: 11px;
+        font-weight: 700;
+    }
+    .shegheft-tommarow .parent .child1 .childchild2{
+        width: fit-content;
+        margin: 0 16px 0 0;
+    }
+    .shegheft-tommarow .parent .child1 .childchild2 .right {
+        width: fit-content;
+        height: 100%;
+    }
+    .shegheft-tommarow .parent .child1 .childchild2 .right a{
+        width: 74px;
+        height: 74px;
+        padding: 8px;
+        margin-left: 8px;
+    }
+    .shegheft-tommarow .parent .child1 .childchild2 .left {
+        width: 138.02px;
+        height: 50px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        padding: 12px 20px;
+        border-radius: 50px;
+    }
+    .shegheft-tommarow .parent .child1 .childchild2 .left .tozih{
+        display: block;
+        width: fit-content;
+        height: fit-content;
+        font-size: 12px;
+        font-weight: 700;
+        color: #ef394e;
+    }
+    .shegheft-tommarow .parent .child1 .childchild2 .left svg{
+        margin-right: 8px;
+    }
+}

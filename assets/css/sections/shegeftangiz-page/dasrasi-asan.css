@@ -1,0 +1,89 @@
+.dastrasi-asan{
+    width: 100%;
+    height: 191.09px;
+    padding-top: 64px;
+}
+.dastrasi-asan .parent{
+    width: 100%;
+    height: 127px;
+    padding-top: 20px;
+}
+.dastrasi-asan .parent .child{
+    width: 100%;
+    height: 100%;
+}
+.dastrasi-asan .parent .child .dast-asan{
+    height: 100%;
+    padding-right: 8px;
+
+}
+.dastrasi-asan .parent .child .dast-asan .swiper-slide {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.dastrasi-asan .parent .child .dast-asan .swiper-slide a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+.dastrasi-asan .parent .child .dast-asan .swiper-slide:first-child{
+    background-color: #f0f0f1;
+    border-radius: 8px;
+}
+.dastrasi-asan .parent .child .dast-asan .swiper-slide a .up{
+    width: 64px;
+    height: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+}
+.dastrasi-asan .parent .child .dast-asan .swiper-slide a .up .image{
+    width: 100%;
+    height: 100%;
+}
+.dastrasi-asan .parent .child .dast-asan .swiper-slide a .up .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.dastrasi-asan .parent .child .dast-asan .swiper-slide a .down{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dastrasi-asan .parent .child .dast-asan .swiper-slide a .down span{
+    width: fit-content;
+    height: fit-content;
+    font-size: 8.8px;
+    font-weight: 700;
+    color: #0c0c0c;
+}
+
+@media (min-width:1024px){
+    .dastrasi-asan {
+        height: 180.03px;
+        padding: 20px 0;
+    }
+    .dastrasi-asan .parent{
+        width: 100%;
+        height: 140.03px;
+        padding: 0;
+    }
+    .dastrasi-asan .parent .child .dast-asan .swiper-slide a{
+        padding: 8px 0;
+    }
+    .dastrasi-asan .parent .child .dast-asan .swiper-slide a .up{
+        width: 90px;
+        height: 90px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 8px;
+    }   
+}

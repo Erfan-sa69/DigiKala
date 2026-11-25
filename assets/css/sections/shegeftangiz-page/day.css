@@ -1,0 +1,28 @@
+.day {
+    width: 100%;
+    height: 438.79px;
+    padding: 0 8px;
+    background:url(../../../images/page-shegheft/deal-pattern.svg) ,linear-gradient(180deg, #e6123d 0%, #c60c31 100%);
+}
+.day .parent{
+    width: 100%;
+    height: 56px;
+    padding: 16px 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+}
+.day .parent span{
+    display: inline-block;
+    margin-left: 8px;
+}
+.day .parent span svg{
+    fill: white;
+}
+.day .parent .info {
+    font-size: 11.2px;
+    font-weight: 700;
+    color: white;
+
+}

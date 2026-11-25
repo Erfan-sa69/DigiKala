@@ -1,0 +1,304 @@
+.sefareshi{
+    width: 100%;
+    height: 422.78px;
+    margin-top: 24px;
+}
+.sefareshi .parent{
+    width: 100%;
+    height: 100%;
+    padding-top: 8px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.sefareshi .parent .upside{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 63.4px;
+    padding: 12px 16px;
+}
+.sefareshi .parent .upside .title {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+}
+.sefareshi .parent .upside .title span{
+    width: 24px;
+    height: 24px;
+}
+.sefareshi .parent .upside .title span svg{
+    width: 100%;
+    height: 100%;
+    fill: #ff009c;
+}
+.sefareshi .parent .upside .title p{
+    width: fit-content;
+    height: fit-content;
+    font-size: 12px;
+    font-weight: 700;
+    color: #0c0c0c;
+    line-height: 2.1;
+}
+.sefareshi .parent .upside .line{
+    width: 70px;
+    border: 1.35px solid red;
+    border-radius: 20px;
+}
+.sefareshi .parent .downside{
+    height: 351px;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad{
+    width: 100%;
+    height: 100%;
+    padding-right: 4px;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide{
+    width: 100%;
+    height: 100%;
+    padding: 12px 16px;
+    background-color: white;
+    border-left: 1px solid rgba(128, 128, 128, 0.203);
+}   
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide:last-child{
+    border-left: 0;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .title{
+    width: 100%;
+    height: 19.09px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 4px;
+    gap: 6px;
+    position: relative;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .title svg:first-child{
+    width: 70.36px;
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 1px;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .title span{
+    font-size: 10px;
+    font-weight: 400;
+    color: #81858b;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .title svg:last-child{
+    width: 14px;
+    height: 14px;
+    fill: #ff009c;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .title>
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .image{
+    width: 128px;
+    height: 128px; 
+    margin-bottom: 4px;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .information{
+    width: 100%;
+    height: 52px;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .information h3{
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 2.17;
+    color: #3f4064;
+    text-align: start;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .tommarow{
+    width: 100%;
+    height: 22px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 4px;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .tommarow img{
+    width: 75px;
+    height: 22px;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .ghimat{
+    width: 100%;
+    height: 57.26px;
+    padding-top: 4px;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .ghimat .parent-gh{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .ghimat .parent-gh .up-gh{
+    width: 100%;
+    height: 29.4px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 5px;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .ghimat .parent-gh .up-gh .right{
+    width: 34px;
+    height: 20px;
+    background-color: #d32f2f;
+    border-radius: 16px;
+    padding: 0 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .ghimat .parent-gh .up-gh .right span{
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 2.17;
+    color: white;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .ghimat .parent-gh .up-gh .mid{
+    width: fit-content;
+    height: fit-content;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .ghimat .parent-gh .up-gh .mid span{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 2.1;
+    color: #3f4064;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .ghimat .parent-gh .up-gh .left{
+    width: fit-content;
+    height: fit-content;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .ghimat .parent-gh .up-gh .left span{
+    width: 16px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .ghimat .parent-gh .up-gh .left span svg{
+    width: 16px;
+    height: 16px;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .ghimat .parent-gh .down-gh{
+    width: 100%;
+    padding-left: 20px;
+    display: flex;
+    justify-content: end;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .ghimat .parent-gh .down-gh span{
+    font-size: 11px;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: #c0c2c5;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .deadline{
+    width: 100%;
+    border: 3px solid rgba(128, 128, 128, 0.244);
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    justify-content: end;
+    opacity: 0;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .deadline .redline{
+    width: 96%;
+    position: absolute;
+    top: -1.9px;
+    border: 2.5px solid #ef394e;
+    border-radius: 20px;
+    left: -1.7px;
+}
+
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .endest{
+    width: 100%;
+    height: 27.86px;
+    padding-top: 4px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 6px;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .endest .endright{
+    width: fit-content;
+    height: 23.86px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 6px;
+    opacity: 0;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .endest .endright span{
+    width: fit-content;
+    height: fit-content;
+    font-size: 10px;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .endest .endright span:last-child{
+    color: #81858b;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .endest .endright span:first-child{
+    color: #ef394e;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .endest .endleft{
+    width: fit-content;
+    height: 23.86px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .endest .endleft span{
+    font-size: 11px;
+    font-weight: 700;
+    color: #ef394e;
+}
+
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide:nth-of-type(3) a .tommarow {
+    opacity: 0;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide:nth-of-type(4) a .tommarow {
+    opacity: 0;
+}
+.sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide:nth-of-type(6) a .tommarow {
+    opacity: 0;
+}
+
+@media (min-width:1024px) {
+    .sefareshi {
+        border: 1px solid rgba(128, 128, 128, 0.205);
+        height: 453.78px;
+        border-radius: 8px;
+    }
+    .sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .title svg:first-child{
+        width: 114.88px;
+    }
+    .sefareshi .parent .downside{
+        height: 381px;
+    }
+    .sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .ghimat .parent-gh .up-gh {
+        display: flex;
+        flex-flow: row nowrap;  
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sefareshi .lll{
+      display: flex;  
+      flex-flow: row nowrap;
+      justify-content: end;
+      align-items: center;
+      gap: 4px;
+    }
+    .sefareshi .parent .downside .shegeft-angiz-pishnahad .swiper-slide a .endest {
+        justify-content: space-between;
+    }
+}
